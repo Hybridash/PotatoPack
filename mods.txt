@@ -1,0 +1,36 @@
+# PotatoPack mod list: one Modrinth slug per line.
+# Add or remove a line, push, and GitHub Actions rebuilds the pack.
+# Lines starting with # are ignored.
+
+# --- Core ---
+fabric-api
+
+# --- Rendering (biggest FPS gains) ---
+sodium                 # Rewrites the renderer: usually 2-5x FPS
+sodium-extra           # Extra toggles: turn off fog, animations, particles
+reeses-sodium-options  # Cleaner video settings menu
+immediatelyfast        # Faster text, HUD, and entity rendering
+entityculling          # Skips mobs/chests you can't see
+moreculling            # Skips hidden block faces (leaves etc.)
+badoptimizations       # Caches lightmap/sky/fog work every frame
+
+# --- CPU / game logic ---
+lithium                # Faster physics, mob AI, ticking
+c2me-fabric            # Uses all CPU cores for chunk loading
+scalablelux            # Faster lighting engine
+krypton                # Lighter networking
+
+# --- RAM / loading ---
+ferrite-core           # Cuts RAM use a lot
+modernfix              # Faster launch, less RAM
+memoryleakfix          # Fixes vanilla memory leaks
+
+# --- Background saving ---
+dynamic-fps            # Drops FPS to near 0 when tabbed out (saves CPU/battery)
+
+# --- Management / quality of life ---
+modmenu                # In-game list of mods with config buttons
+yosbr                  # Ships the potato default settings without overwriting yours
+
+# --- Optional (off by default in the launcher) ---
+iris                   # Shaders if your PC can handle it

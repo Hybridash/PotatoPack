@@ -1,0 +1,14 @@
+name = "PotatoPack"
+author = "Hybridash"
+version = "1.0.0"
+description = "Squeezes every frame out of Minecraft on low-end PCs. Vanilla gameplay, just way faster."
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = ""
+
+[versions]
+minecraft = "1.21.1"
+fabric = "0.16.14"

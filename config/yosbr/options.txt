@@ -1,0 +1,15 @@
+version:3955
+renderDistance:6
+simulationDistance:5
+maxFps:260
+enableVsync:false
+graphicsMode:0
+ao:false
+biomeBlendRadius:0
+mipmapLevels:0
+renderClouds:"false"
+particles:2
+entityShadows:false
+entityDistanceScaling:0.5
+fov:0.0
+guiScale:2
